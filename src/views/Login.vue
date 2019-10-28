@@ -45,7 +45,7 @@ export default {
           this.$router.push("/");
         })
         .catch(error => {
-          this.errors = ["Invalid username or password."];
+          this.errors = ["Invalid email or password."];
           this.email = "";
           this.password = "";
         });
