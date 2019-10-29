@@ -3,8 +3,8 @@
 
 
     <div class="jumbotron">
-      <h1 class="display-4">Hello, Brittani!</h1>
-      <p class="lead">Welcome back to Buoy</p>
+      <h1 class="display-4">Hello, Brittani</h1>
+      <p class="lead">Welcome back to Buoy!</p>
       <hr class="my-4">
       <p>Your next exam is Monday, November 4, 2019</p>
     </div>
