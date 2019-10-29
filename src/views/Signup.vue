@@ -6,10 +6,17 @@
         <ul>
           <li class="text-danger" v-for="error in errors">{{ error }}</li>
         </ul>
-  
+        <div class="form-group">
+          <label>First Name:</label>
+          <input type="text" class="form-control" v-model="firstName">
+        </div>
+        <div class="form-group">
+          <label>Last Name:</label>
+          <input type="text" class="form-control" v-model="lastName">
+        </div>
         <div class="form-group">
           <label>Email:</label>
-          <input type="text" class="form-control" v-model="username">
+          <input type="text" class="form-control" v-model="email">
         </div>
         <div class="form-group">
           <label>Password:</label>
@@ -30,6 +37,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
+      firstName: "",
+      lastName: "",
       email: "",
       password: "",
       passwordConfirmation: "", 
@@ -39,13 +48,15 @@ export default {
   methods: {
     submit: function() {
       var params = {
+        first_name: this.firstName,
+        last_name: this.lastName,
         email: this.email,
         password: this.password,
-        password_confirmation: this.passwordConfirmation,
+        password_confirmation: this.passwordConfirmation
       };
 
       axios
-        .post("/api/users", params)
+        .post("/api/students", params)
         .then(response => {
           this.$router.push("/login");
         })

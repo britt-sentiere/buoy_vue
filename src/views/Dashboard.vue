@@ -1,9 +1,10 @@
-<!-- <template>
+<template>
   <div class="home">
     <h1>{{ message }}</h1>
 
     <button type="button" class="btn btn-primary btn-lg">Large button</button>
     <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
 
   </div>
 </template>
@@ -21,4 +22,4 @@ export default {
   created: function() {},
   methods: {}
 };
-</script> -->
+</script>
