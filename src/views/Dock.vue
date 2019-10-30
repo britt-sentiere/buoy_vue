@@ -3,19 +3,13 @@
 
 
     <div class="jumbotron">
-      <h1 class="display-4">Hello, Brittani</h1>
+      <h1 class="display-4">Hello</h1>
       <p class="lead">Welcome back to Buoy!</p>
       <hr class="my-4">
       <p>Your next exam is Monday, November 4, 2019</p>
     </div>
 
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <button v-on:click="handRaised()" class="btn btn-primary btn-lg btn-block">Hand Raised</button>
+    <button v-on:click="handRaised()" class="btn btn-primary btn-lg btn-block mt">Hand Raised</button>
     
 
 
@@ -37,25 +31,35 @@
 </style>
 
 <script>
+import axios from "axios";
 export default {
   data: function() {
     return {
-      help_requests: [],
+      helpRequests: [],
       errors: [],
+      helpRequestsCount: 0,
+      participation_id: 0
+
 
     };
   },
   created: function() {
-    // axios
-    //   .get(/api/help_requests)
-    //   .then(response => {
-    //     this.help_requests = response.data;
+    axios
+      .get("/api/help_requests")
+      .then(response => {
+        this.helpRequests = response.data;
+        // this.helpRequestsCount = this.helpRequests[this.participation_id];
+      
 
-    //   })
+      })
   },
   methods: {
     handRaised() {
-
+      this.helpRequestsCount ++;
+      if (this.helpRequestsCount > 0){
+        console.log(this.helpRequestsCount);
+        // this.helpRequestsCount = this.helpRequests[this.participation_id];
+      }
     }
   }
 };
