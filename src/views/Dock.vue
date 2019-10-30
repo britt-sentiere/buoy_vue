@@ -35,8 +35,8 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      helpRequests: [],
       errors: [],
+      helpRequests: [],
       helpRequestsCount: 0,
       participation_id: 0
 
@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     handRaised() {
-      this.helpRequestsCount ++;
+      this.helpRequestsCount++;
       if (this.helpRequestsCount > 0){
         console.log(this.helpRequestsCount);
         // this.helpRequestsCount = this.helpRequests[this.participation_id];

@@ -39,10 +39,16 @@ export default {
       axios
         .post("/api/sessions", params)
         .then(response => {
-          console.log("/api/dock");
           axios.defaults.headers.common["Authorization"] = "Bearer " + response.data.jwt;
           localStorage.setItem("jwt", response.data.jwt);
-          this.$router.push("/");
+          localStorage.setItem("userType", response.data.user_type);
+
+
+          if (response.data.user_type === 'Student') {
+            this.$router.push("/students/" + response.data.user_id); // Student Path
+          } else {
+            this.$router.push("/teachers/" + response.data.user_id + "/courses"); // Teacher Path
+          }
         })
         .catch(error => {
           this.errors = ["Invalid email or password."];
