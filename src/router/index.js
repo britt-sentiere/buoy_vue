@@ -13,8 +13,8 @@ const routes = [
    {path: "/", name: "home", component: Dock },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },
-   {path: "/students", name: "student-show", component: StudentShow },
-   {path: "/courses", name: "course-index", component: CoursesIndex },
+   {path: "/students", name: "studentshow", component: StudentShow },
+   {path: "/courses", name: "courseindex", component: CoursesIndex },
    {path: "/dock", name: "dock", component: Dock },
    {path: "/logout", name: "logout", component: Logout }
 

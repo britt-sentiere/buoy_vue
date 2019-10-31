@@ -42,6 +42,7 @@ export default {
           axios.defaults.headers.common["Authorization"] = "Bearer " + response.data.jwt;
           localStorage.setItem("jwt", response.data.jwt);
           localStorage.setItem("userType", response.data.user_type);
+          localStorage.setItem("userId", response.data.user_id);
 
 
           if (response.data.user_type === 'Student') {
