@@ -4,6 +4,7 @@ import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
 import StudentShow from '../views/StudentShow.vue'
 import CoursesIndex from '../views/CoursesIndex.vue'
+import TeacherShow from '../views/TeacherShow.vue'
 import Dock from '../views/Dock.vue'
 import Logout from '../views/Logout.vue'
 
@@ -15,6 +16,7 @@ const routes = [
    {path: "/login", name: "login", component: Login },
    {path: "/students", name: "studentshow", component: StudentShow },
    {path: "/courses", name: "courseindex", component: CoursesIndex },
+   {path: "/teachers/:id", name: "teachershow", component: TeacherShow },
    {path: "/dock", name: "dock", component: Dock },
    {path: "/logout", name: "logout", component: Logout }
 
