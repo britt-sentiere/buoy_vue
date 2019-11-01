@@ -5,19 +5,19 @@ import Login from '../views/Login.vue'
 import StudentShow from '../views/StudentShow.vue'
 import CoursesIndex from '../views/CoursesIndex.vue'
 import TeacherShow from '../views/TeacherShow.vue'
-import Dock from '../views/Dock.vue'
+import ParticipationShow from '../views/ParticipationShow.vue'
 import Logout from '../views/Logout.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-   {path: "/", name: "home", component: Dock },
+   {path: "/", name: "home", component: ParticipationShow },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },
    {path: "/students/:id", name: "studentshow", component: StudentShow },
    {path: "/courses", name: "courseindex", component: CoursesIndex },
    {path: "/teachers/:id", name: "teachershow", component: TeacherShow },
-   {path: "/dock", name: "dock", component: Dock },
+   {path: "/participations/:id", name: "participationshow", component: ParticipationShow },
    {path: "/logout", name: "logout", component: Logout }
 
  

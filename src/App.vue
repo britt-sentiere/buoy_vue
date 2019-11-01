@@ -6,7 +6,7 @@
       <router-link to="/students">Student Show</router-link> |
       <router-link to="/courses">Courses Index</router-link> |
       <router-link to="/teachers">Teacher Show</router-link> |
-      <router-link to="/">Dock</router-link> |
+      <router-link to="/participation/:id">Participation Show</router-link> |
       <router-link to="/logout">Logout</router-link> 
     </div>
     <router-view/>
