@@ -14,7 +14,7 @@ const routes = [
    {path: "/", name: "home", component: Dock },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },
-   {path: "/students", name: "studentshow", component: StudentShow },
+   {path: "/students/:id", name: "studentshow", component: StudentShow },
    {path: "/courses", name: "courseindex", component: CoursesIndex },
    {path: "/teachers/:id", name: "teachershow", component: TeacherShow },
    {path: "/dock", name: "dock", component: Dock },
