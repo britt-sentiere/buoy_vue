@@ -1,8 +1,6 @@
 <template>
   <div class="student-show">
-    <h1>{{ message1 }}</h1>
-    <h2> {{ student.id }}</h2>
-    <h2> {{ student.first_name }}</h2>
+    <h1>Welcome back, {{ student.first_name }} !</h1>
 
      <div class="container">
 
@@ -30,8 +28,7 @@ export default {
       
       student: {
         participations: []
-      },
-      message1: "Welcome to Vue.js!"
+      }
     };
   },
   created: function() {

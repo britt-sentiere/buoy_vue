@@ -36,30 +36,30 @@ export default {
   data: function() {
     return {
       errors: [],
-      helpRequests: [],
-      helpRequestsCount: 0,
-      participation_id: 0
+      participation: {
+        help_requests: []
+      },
+      helpRequestsCount: 0
 
 
     };
   },
   created: function() {
     axios
-      .get("/api/help_requests")
+      .get("/api/participations/" + this.$route.params.id)
       .then(response => {
-        this.helpRequests = response.data;
-        // this.helpRequestsCount = this.helpRequests[this.participation_id];
-      
-
+        this.participation = response.data;
       })
   },
   methods: {
     handRaised() {
-      this.helpRequestsCount++;
-      if (this.helpRequestsCount > 0){
-        console.log(this.helpRequestsCount);
-        // this.helpRequestsCount = this.helpRequests[this.participation_id];
-      }
+      axios
+        .post("/api/help_requests", params)
+        .then(response => {
+          console.log("success", response.data);
+          this.help_requests.push(response.data);
+          this.participation = ""
+        });
     }
   }
 };
