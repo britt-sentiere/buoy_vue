@@ -11,12 +11,22 @@
 
     <button v-on:click="handRaised()" class="btn btn-primary btn-lg btn-block mt">Hand Raised</button>
     
-
+    <ul>
+      <li v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.created_at }}</li>
+    </ul>
 
   </div>
 </template>
 
 <style>
+
+.open-request {
+  color: green;
+}
+
+.closed-request {
+  background-color: red;
+}
 
 .btn-block {
 
@@ -52,14 +62,19 @@ export default {
       })
   },
   methods: {
-    handRaised() {
+    handRaised: function() {
+      console.log("Raised Hand");
+
+      var studentParams = {
+        participation_id: this.participation.id
+      }
       axios
-        .post("/api/help_requests", params)
+        .post("/api/help_requests", studentParams)
         .then(response => {
           console.log("success", response.data);
-          this.help_requests.push(response.data);
-          this.participation = ""
+          this.participation.help_requests.push(response.data);
         });
+
     }
   }
 };
