@@ -4,10 +4,10 @@
 
      <div class="container">
 
-       <div v-for="courses in teacher.courses ">
-        
+       <div v-for="course in teacher.courses ">
 
-          <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ courses.course_name}}</router-link>
+        
+          <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
 
           
            <br>

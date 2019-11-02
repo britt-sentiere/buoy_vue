@@ -5,7 +5,7 @@
       <router-link to="/login">Login</router-link> |
       <router-link to="/students">Student Show</router-link> |
       <router-link to="/courses">Courses Show</router-link> |
-      <router-link to="/teachers">Teacher Show</router-link> |
+      <router-link to="/teachers/:id">Teacher Show</router-link> |
       <router-link to="/participation/:id">Participation Show</router-link> |
       <router-link to="/logout">Logout</router-link> 
     </div>
