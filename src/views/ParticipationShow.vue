@@ -21,11 +21,11 @@
 <style>
 
 .open-request {
-  color: green;
+  color: teal;
 }
 
 .closed-request {
-  background-color: red;
+  background-color: green;
 }
 
 .btn-block {

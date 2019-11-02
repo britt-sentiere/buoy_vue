@@ -1,13 +1,13 @@
-<template>
-  <div class="teacher-show">
+<!-- <template>
+  <div class="courses-index">
     <h1>Welcome back, {{ teacher.first_name }} !</h1>
 
      <div class="container">
 
-       <div v-for="courses in teacher.courses ">
+       <div v-for="participation in teacher.participations ">
         
 
-          <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ courses.course_name}}</router-link>
+          <router-link class="btn btn-success" v-bind:to="'/participations/' + participation.id">{{ participation.course.course_name}} / {{ participation.course.teacher.last_name}}</router-link>
 
           
            <br>
@@ -26,8 +26,8 @@ export default {
   data: function() {
     return {
       
-      teacher: {
-        courses: []
+      student: {
+        participations: []
       }
     };
   },
@@ -35,9 +35,9 @@ export default {
     axios
       .get("/api/teachers/" + this.$route.params.id)
       .then(response => {
-        this.teacher = response.data;
+        this.student = response.data;
       });
   },
   methods: {}
 };
-</script>
+</script> -->
