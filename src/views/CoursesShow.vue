@@ -1,18 +1,10 @@
-<!-- <template>
-  <div class="courses-index">
-    <h1>Welcome back, {{ teacher.first_name }} !</h1>
+<template>
+  <div class="courses-show">
+    <h1>Help Requests: </h1>
 
-     <div class="container">
-
-       <div v-for="participation in teacher.participations ">
-        
-
-          <router-link class="btn btn-success" v-bind:to="'/participations/' + participation.id">{{ participation.course.course_name}} / {{ participation.course.teacher.last_name}}</router-link>
-
-          
-           <br>
-       </div>
-     </div>
+   <!--  <ul>
+      <li v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.created_at }}></li>
+    </ul> -->
   </div>
 </template>
 
@@ -20,24 +12,24 @@
 </style>
 
 <script>
-  import axios from "axios";
-
+import axios from "axios";
 export default {
   data: function() {
     return {
-      
-      student: {
-        participations: []
+      students: {
+        participation: {
+          help_requests: []
+        }
       }
     };
   },
   created: function() {
-    axios
-      .get("/api/teachers/" + this.$route.params.id)
+    axios 
+      .get("/api/courses/" + this.$route.params.id)
       .then(response => {
-        this.student = response.data;
+        this.course = response.data;
       });
   },
   methods: {}
 };
-</script> -->
+</script>

@@ -43,8 +43,8 @@ export default {
           localStorage.setItem("jwt", response.data.jwt);
           localStorage.setItem("userType", response.data.user_type);
           localStorage.setItem("userId", response.data.user_id);
-          localStorage.setItem("userFirstName", response.data.user_first_name);
-          localStorage.setItem("userLastName", response.data.user_last_name);
+          // localStorage.setItem("userFirstName", response.data.user_first_name);
+          // localStorage.setItem("userLastName", response.data.user_last_name);
 
 
           if (response.data.user_type === 'Student') {

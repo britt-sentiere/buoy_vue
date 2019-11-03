@@ -2,12 +2,12 @@
   <div class="dock">
 
 
-    <div class="jumbotron">
+   <!--  <div class="jumbotron">
       <h1 class="display-4">Hello</h1>
       <p class="lead">Welcome back to Buoy!</p>
       <hr class="my-4">
       <p>Your next exam is Monday, November 4, 2019</p>
-    </div>
+    </div> -->
 
     <button v-on:click="handRaised()" class="btn btn-primary btn-lg btn-block mt">Hand Raised</button>
     

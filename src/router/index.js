@@ -11,11 +11,11 @@ import Logout from '../views/Logout.vue'
 Vue.use(VueRouter)
 
 const routes = [
-   {path: "/", name: "home", component: ParticipationShow },
+   {path: "/", name: "signup", component: Signup },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },
    {path: "/students/:id", name: "studentshow", component: StudentShow },
-   {path: "/courses", name: "courseshow", component: CoursesShow },
+   {path: "/courses/:id", name: "courseshow", component: CoursesShow },
    {path: "/teachers/:id", name: "teachershow", component: TeacherShow },
    {path: "/participations/:id", name: "participationshow", component: ParticipationShow },
    {path: "/logout", name: "logout", component: Logout }
