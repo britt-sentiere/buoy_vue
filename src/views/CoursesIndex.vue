@@ -33,7 +33,7 @@ export default {
   },
   created: function() {
     axios
-      .get("/api/teachers/" + this.$route.params.id)
+      .get("/api/teachers/current")
       .then(response => {
         this.teacher = response.data;
       });
