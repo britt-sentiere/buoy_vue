@@ -2,13 +2,14 @@
   <div class="courses-show">
     <h1>Help Requests: </h1>
 
-   <!--  <ul>
-      <li v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.created_at }}></li>
-    </ul> -->
+    <ul>
+      <li v-for="participation in course.participations" v-bind:class="{'open-request': true, 'closed-request': false }">{{ participation.student.first_name }} {{ participation.student.last_name}}</li>
+    </ul>
   </div>
 </template>
 
 <style>
+
 </style>
 
 <script>
@@ -16,10 +17,9 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      students: {
-        participation: {
-          help_requests: []
-        }
+      errors: [],
+      course: {
+        participations: []
       }
     };
   },
@@ -30,6 +30,8 @@ export default {
         this.course = response.data;
       });
   },
-  methods: {}
-};
+  methods: {
+    
+    }
+  };
 </script>

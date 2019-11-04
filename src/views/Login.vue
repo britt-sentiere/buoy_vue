@@ -50,7 +50,7 @@ export default {
           if (response.data.user_type === 'Student') {
             this.$router.push("/students/" + response.data.user_id); // Student Path
           } else {
-            this.$router.push("/teachers/" + response.data.user_id); // Teacher Path
+            this.$router.push("/courses"); // Teacher Path
           }
         })
         .catch(error => {
