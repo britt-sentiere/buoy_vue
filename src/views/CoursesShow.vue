@@ -3,7 +3,7 @@
     <h1>Help Requests: </h1>
 
     <ul>
-      <li v-for="participation in course.participations" v-bind:class="{'open-request': true, 'closed-request': false }">{{ participation.student.first_name }} {{ participation.student.last_name}}</li>
+      <li v-for="participation in course.participations" v-bind:class="{'open-request': true, 'closed-request': false }">{{ participation.student.first_name }} {{ participation.student.last_name}} - {{ participation.student.open_help_request.formatted.created_at }} ; {{ participation.student.open_help_request.id }}</li>
     </ul>
   </div>
 </template>
