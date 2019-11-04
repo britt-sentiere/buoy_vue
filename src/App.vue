@@ -12,7 +12,7 @@
                     <div class="col-md">
                         <!--  Top Quote Area Start -->
                         <div class="top_quote">
-                            <p>Welcome to EduCamp LMS Platform</p>
+                            <p>Welcome to Buoy</p>
                         </div>
                     </div>
                     <div class="col-md">
@@ -48,7 +48,7 @@
                     <nav class="classy-navbar justify-content-between" id="educampNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt="Logo"></a>
+                        <a class="nav-brand" href="public"><img src="buoy.jpg" alt="Logo"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -97,7 +97,7 @@
     <router-view/>
 
     <!-- ===================== Download App Area Start ===================== -->
-    <div class="download_app_area section_padding_100" style="background-image: url(img/bg-pattern/about-us-1.jpg);">
+    <div class="download_app_area section_padding_100" style="background-image: url(https://cff2.earth.com/uploads/2017/03/20141223/shutterstock_310555622.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 ml-md-auto">
