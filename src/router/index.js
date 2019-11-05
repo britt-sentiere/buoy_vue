@@ -2,22 +2,24 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
-import StudentShow from '../views/StudentShow.vue'
+import StudentsShow from '../views/StudentsShow.vue'
 import CoursesShow from '../views/CoursesShow.vue'
 import CoursesIndex from '../views/CoursesIndex.vue'
-import ParticipationShow from '../views/ParticipationShow.vue'
+import ParticipationsShow from '../views/ParticipationsShow.vue'
 import Logout from '../views/Logout.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-   {path: "/", name: "home", component: Login },
+   {path: "/", name: "root-path", component: Login },
+   {path: "/home", name: "home", component: Home },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },
-   {path: "/students/:id", name: "studentshow", component: StudentShow },
-   {path: "/courses/:id", name: "courseshow", component: CoursesShow },
-   {path: "/courses", name: "coursesindex", component: CoursesIndex },
-   {path: "/participations/:id", name: "participationshow", component: ParticipationShow },
+   {path: "/students/:id", name: "students-show", component: StudentsShow },
+   {path: "/courses/:id", name: "courses-show", component: CoursesShow },
+   {path: "/courses", name: "courses-index", component: CoursesIndex },
+   {path: "/participations/:id", name: "participations-show", component: ParticipationsShow },
    {path: "/logout", name: "logout", component: Logout }
 
  

@@ -1,5 +1,5 @@
 <template>
-  <div class="student-show">
+  <div class="students-show">
     <h1>Welcome back, {{ student.first_name }} !</h1>
 
      <div class="container">

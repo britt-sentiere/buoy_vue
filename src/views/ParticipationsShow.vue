@@ -1,5 +1,5 @@
 <template>
-  <div class="dock">
+  <div class="participations-show">
 
 
 
