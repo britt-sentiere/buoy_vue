@@ -94,10 +94,77 @@
     </header>
     <!--  ===================== Header Area End ===================== -->
 
+    <!-- ===================== Welcome Area Start ===================== -->
+    <section class="welcome_area clearfix" id="home">
+        <div class="welcome_slides">
+            <!-- Single Slide -->
+            <div class="single_slide text-center" style="background-image: url(https://images.unsplash.com/photo-1553585986-d299fb228758?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);">
+                <div class="slide_text">
+                    <div class="table">
+                        <div class="table_cell">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 data-animation="fadeInUp" data-delay="200ms" data-duration="500ms">Taking the lead for education quality</h2>
+                                        <p data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Education is the most powerful weapon which you can use to change the world.</p>
+                                        <!-- <a href="#" class="btn welcome-btn" data-animation="fadeInUp" data-delay="800ms" data-duration="500ms">Start A Course <i class="fa fa-angle-right"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================== Welcome Area End ===================== -->
+
+
     <router-view/>
 
+    <!-- ===================== Awesome Feature Area Start ===================== -->
+    <section class="awesome_features_area clearfix">
+        <!-- Single Feature Area Start -->
+        <div class="single_feature">
+            <div class="feature_img">
+                <i class="icon-genius" aria-hidden="true"></i>
+            </div>
+            <div class="feature_text">
+                <h5>Effective Courses</h5>
+            </div>
+        </div>
+        <!-- Single Feature Area Start -->
+        <div class="single_feature">
+            <div class="feature_img">
+                <i class="icon-profile-male" aria-hidden="true"></i>
+            </div>
+            <div class="feature_text">
+                <h5>Best Teachers</h5>
+            </div>
+        </div>
+        <!-- Single Feature Area Start -->
+        <div class="single_feature">
+            <div class="feature_img">
+                <i class="icon-compass" aria-hidden="true"></i>
+            </div>
+            <div class="feature_text">
+                <h5>Practical Classes</h5>
+            </div>
+        </div>
+        <!-- Single Feature Area Start -->
+        <div class="single_feature">
+            <div class="feature_img">
+                <i class="icon-gift" aria-hidden="true"></i>
+            </div>
+            <div class="feature_text">
+                <h5>Organised Classroom</h5>
+            </div>
+        </div>
+    </section>
+    <!-- ===================== Awesome Feature Area End ===================== -->
+
     <!-- ===================== Download App Area Start ===================== -->
-    <div class="download_app_area section_padding_100" style="background-image: url(https://cff2.earth.com/uploads/2017/03/20141223/shutterstock_310555622.jpg);">
+    <div class="download_app_area section_padding_100" style="background-image: url(https://images.unsplash.com/photo-1550868142-97bfb991bbd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=910&q=80);">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 ml-md-auto">
