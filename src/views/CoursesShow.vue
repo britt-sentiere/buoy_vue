@@ -44,7 +44,3 @@ export default {
     }
   };
 </script>
-
-
-
-<!-- where request (for time SQL with ? syntax) where list of help_requests are being pulled together from database -->

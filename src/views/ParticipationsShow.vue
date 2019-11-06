@@ -49,9 +49,11 @@ export default {
     };
   },
   created: function() {
+    console.log("created");
     axios
       .get("/api/participations/" + this.$route.params.id)
       .then(response => {
+        console.log("response");
         this.participation = response.data;
       })
   },

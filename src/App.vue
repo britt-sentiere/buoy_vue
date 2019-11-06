@@ -48,7 +48,7 @@
                     <nav class="classy-navbar justify-content-between" id="educampNav">
 
                         <!-- Logo -->
-                        <!-- <a class="nav-brand" href="public"><img src="buoy.jpg" alt="Logo"></a> -->
+                        <a class="nav-brand" href="public"><img src="buoy.jpg" alt="Logo"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
