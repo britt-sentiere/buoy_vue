@@ -12,7 +12,7 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
-   {path: "/", name: "root-path", component: Login },
+   {path: "/", name: "root-path", component: Home },
    {path: "/home", name: "home", component: Home },
    {path: "/signup", name: "signup", component: Signup },
    {path: "/login", name: "login", component: Login },

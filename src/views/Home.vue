@@ -35,13 +35,20 @@
 </style>
 
 <script>
+
+
 export default {
   data: function() {
     return {
       // message: "Welcome to Buoy!"
     };
   },
-  created: function() {},
+  created: function() {
+    // axios.get("/api/help_requests").then(response => {
+    //    this.help_requests = response.data;
+    //  });
+     
+  },
   methods: {}
 };
 </script>
