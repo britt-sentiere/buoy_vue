@@ -14,8 +14,8 @@
 
 <script>
 import ActionCable from "actioncable";
-
 import axios from "axios";
+
 export default {
   data: function() {
     return {
@@ -49,28 +49,6 @@ export default {
         }
       });
   },
-
-  // var cable = ActionCable.createConsumer("ws://localhost:3000/cable");
-  //   cable.subscriptions.create("MessagesChannel", {
-  //     connected: () => {
-  //       // Called when the subscription is ready for use on the server
-  //       console.log("Connected to MessagesChannel");
-  //     },
-  //     disconnected: () => {
-  //       // Called when the subscription has been terminated by the server
-  //     },
-  //     received: data => {
-  //       // Called when there's incoming data on the websocket for this channel
-  //       console.log("Data from MessagesChannel:", data);
-  //       this.messages.unshift(data); // update the messages in real time
-  //     }
-  //   });
-
-
-
-
-
-
 
   methods: {
     completeRequest: function(requestId) {

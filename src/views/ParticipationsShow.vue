@@ -35,7 +35,9 @@
 </style>
 
 <script>
+import ActionCable from "actioncable";
 import axios from "axios";
+
 export default {
   data: function() {
     return {
@@ -56,6 +58,21 @@ export default {
         console.log("response");
         this.participation = response.data;
       })
+      var cable = ActionCable.createConsumer("ws://localhost:3000/cable");
+      cable.subscriptions.create("StudentsChannel", {
+        connected: () => {
+          // Called when the subscription is ready for use on the server
+          console.log("Connected to StudentsChannel");
+        },
+        disconnected: () => {
+          // Called when the subscription has been terminated by the server
+        },
+        received: data => {
+          // Called when there's incoming data on the websocket for this channel
+          console.log("Data from StudentsChannel:", data);
+          this.participation.help_requests = data; // update the messages in real time
+        }
+      });
   },
   methods: {
     handRaised: function() {
