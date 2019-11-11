@@ -73,8 +73,8 @@
                 <div class="col-12">
                     <!-- Section Heading Area Start -->
                     <div class="section_heading">
-                        <h2>Latest Articles</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis amet mollitia voluptatibus dolor officiis ad.</p>
+                        <h2>Resources We Love</h2>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis amet mollitia voluptatibus dolor officiis ad.</p> -->
                     </div>
                 </div>
             </div>
@@ -85,21 +85,21 @@
                     <div class="single_latest_news_area">
                         <!-- single latest news thumb -->
                         <div class="single_latest_news_img_area">
-                            <img src="img/news-img/blog.jpg" alt="">
+                            <img src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                             <!-- single latest news published date -->
-                            <div class="published_date">
+                            <!-- <div class="published_date">
                                 <p class="date">01</p>
                                 <p class="month">Aug</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="#">Improve Your Computer Skills, Sign Up For Free Online Courses</a>
+                                <a href="https://www.khanacademy.org/test-prep/sat/new-sat-tips-planning/new-sat-how-to-prep/a/tips-for-effective-efficient-studying">Tips For Effective & Efficient Studying</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ducimus consectetur assumenda, ullam dolor provident?</p>
+                                <p>We asked high school students how they prepare for tests and demanding assignments. Here are some of their recommendations, which we hope you’ll find useful and inspiring as you embark on your own SAT practice plan.</p>
                                 <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
@@ -111,21 +111,22 @@
                     <div class="single_latest_news_area">
                         <!-- single latest news thumb -->
                         <div class="single_latest_news_img_area">
-                            <img src="img/news-img/blog-2.jpg" alt="">
+                            <img src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                             <!-- single latest news published date -->
-                            <div class="published_date">
+                            <!-- <div class="published_date">
                                 <p class="date">22</p>
                                 <p class="month">Dec</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="#">Education is not preparation for life; education is life itself</a>
+                                <a href="https://www.education.com/">Boost Your Child's Learning</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ducimus consectetur assumenda, ullam dolor provident?</p>
+                                <p>With thousands of teacher-crafted learning activities that sync up with the school year, we empower parents and teachers so each child's needs and potential can take center stage. </p>
+                                <p>For Schools, Districts, and Organizations</p>
                                 <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
@@ -137,21 +138,21 @@
                     <div class="single_latest_news_area">
                         <!-- single latest news thumb -->
                         <div class="single_latest_news_img_area">
-                            <img src="img/news-img/blog-3.jpg" alt="">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1909&q=80" alt="">
                             <!-- single latest news published date -->
-                            <div class="published_date">
+                           <!--  <div class="published_date">
                                 <p class="date">13</p>
                                 <p class="month">Feb</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="#">Education is the key to unlock the golden door of freedom</a>
+                                <a href="https://www.teacherspayteachers.com/">Lesson Plan Resources For Educators</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ducimus consectetur assumenda, ullam dolor provident?</p>
+                                <p>We offer more than 3 million free and paid resources, created by educators who understand what works in the classroom. When educators get the resources and support they need, they're best equipped to inspire our next generation of learners. </p>
                                 <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
@@ -174,6 +175,7 @@
 </template>
 
 <style>
+
 </style>
 
 <script>

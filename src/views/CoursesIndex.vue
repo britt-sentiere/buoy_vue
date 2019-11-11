@@ -9,6 +9,7 @@
         
           <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
 
+
           
            <br>
        </div>

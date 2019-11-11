@@ -71,7 +71,7 @@
                                     <li class="current_page_item">
                                       <router-link to="/">Home</router-link>
                                     </li>
-                                    <li>
+                                  <!--   <li>
                                       <router-link to="/students">Student Show</router-link>
                                     </li>
                                     <li>
@@ -79,7 +79,7 @@
                                     </li>
                                     <li>
                                       <router-link to="/courses">Courses Index</router-link>
-                                    </li>
+                                    </li> -->
                                    
                                   
                                         </ul>
@@ -124,11 +124,14 @@
                     <div class="col-12 col-md-6 col-lg">
                         <div class="footer_about_us footer-single-part">
                             <div class="title">
-                                <h4>About EduCamp</h4>
+                                <h4>About Buoy</h4>
                                 <!-- Useful Links Title -->
                                 <div class="underline"></div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum, illum quod facilis minima natus adipisci, fugit provident! Totam ipsam, ullam aut. Autem, corporis, tenetur.</p>
+                            <p>bu·oy </p> 
+                      
+                            <p>  an anchored float serving as a navigation mark </p>
+                     
                             <div class="footer_social_links">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -151,19 +154,19 @@
                             <!-- single contact info start -->
                             <div class="footer_single_contact_info">
                                 <i class="fa fa-thumb-tack" aria-hidden="true"></i>
-                                <p>House - 87, Mirpur DOHS, Dhaka, Bangladesh</p>
+                                <p>215 W Ohio St Suite 300 Chicago, IL 60654</p>
                             </div>
                             <!-- single contact info start -->
                             <div class="footer_single_contact_info">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                <a href="tel:+8801791166123">+88 698 257 14520</a>
-                                <a href="tel:+8801791166123">+88 698 257 14521</a>
+                                <a href="tel:+8801791166123">773 202 5862</a>
+                                <!-- <a href="tel:+8801791166123">+88 698 257 14521</a> -->
                             </div>
                             <!-- single contact info start -->
                             <div class="footer_single_contact_info">
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <a href="mailto:info@educamp.com">info@educamp.com</a>
-                                <a href="mailto:care@educamp.com">care@educamp.com</a>
+                                <a href="mailto:info@buoy.com">info@buoy.com</a>
+                                <a href="mailto:care@buoy.com">care@buoy.com</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +184,7 @@
                                 <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> All Our Courses</a>
                                 <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Event Calendar</a>
                                 <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Customer Support</a>
-                                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Career at EduCamp</a>
+                                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Career at Buoy</a>
                                 <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Terms &amp; Conditions</a>
                                 <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Community Forums</a>
                             </div>
@@ -229,5 +232,8 @@
 </template>
 
 <style>
+
+
+
 
 </style>
