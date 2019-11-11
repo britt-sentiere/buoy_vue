@@ -5,6 +5,7 @@ import Login from '../views/Login.vue'
 import StudentsShow from '../views/StudentsShow.vue'
 import CoursesShow from '../views/CoursesShow.vue'
 import CoursesIndex from '../views/CoursesIndex.vue'
+import Charts from '../views/Charts.vue'
 import ParticipationsShow from '../views/ParticipationsShow.vue'
 import Logout from '../views/Logout.vue'
 import Home from '../views/Home.vue'
@@ -19,6 +20,7 @@ const routes = [
    {path: "/students/:id", name: "students-show", component: StudentsShow },
    {path: "/courses/:id", name: "courses-show", component: CoursesShow },
    {path: "/courses", name: "courses-index", component: CoursesIndex },
+   {path: "/charts", name: "charts", component: Charts },
    {path: "/participations/:id", name: "participations-show", component: ParticipationsShow },
    {path: "/logout", name: "logout", component: Logout }
 

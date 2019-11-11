@@ -48,7 +48,7 @@
                     <nav class="classy-navbar justify-content-between" id="educampNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="public"><img src="buoy.jpg" alt="Logo"></a>
+                        <a class="nav-brand" href="public"><img src="buoy.png" alt="Logo"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -97,49 +97,10 @@
 
     <router-view/>
 
-    <!-- ===================== Awesome Feature Area Start ===================== -->
-    <section class="awesome_features_area clearfix">
-        <!-- Single Feature Area Start -->
-        <div class="single_feature">
-            <div class="feature_img">
-                <i class="icon-genius" aria-hidden="true"></i>
-            </div>
-            <div class="feature_text">
-                <h5>Effective Courses</h5>
-            </div>
-        </div>
-        <!-- Single Feature Area Start -->
-        <div class="single_feature">
-            <div class="feature_img">
-                <i class="icon-profile-male" aria-hidden="true"></i>
-            </div>
-            <div class="feature_text">
-                <h5>Best Teachers</h5>
-            </div>
-        </div>
-        <!-- Single Feature Area Start -->
-        <div class="single_feature">
-            <div class="feature_img">
-                <i class="icon-compass" aria-hidden="true"></i>
-            </div>
-            <div class="feature_text">
-                <h5>Practical Classes</h5>
-            </div>
-        </div>
-        <!-- Single Feature Area Start -->
-        <div class="single_feature">
-            <div class="feature_img">
-                <i class="icon-gift" aria-hidden="true"></i>
-            </div>
-            <div class="feature_text">
-                <h5>Organised Classroom</h5>
-            </div>
-        </div>
-    </section>
-    <!-- ===================== Awesome Feature Area End ===================== -->
+
 
     <!-- ===================== Download App Area Start ===================== -->
-    <div class="download_app_area section_padding_100" style="background-image: url(https://images.unsplash.com/photo-1550868142-97bfb991bbd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=910&q=80);">
+    <div class="download_app_area section_padding_100" style="background-image: url(https://images.unsplash.com/photo-1473367961721-680e99e8e882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80);">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 ml-md-auto">
