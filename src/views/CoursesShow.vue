@@ -9,6 +9,9 @@
 </template>
 
 <style>
+.courses-show {
+  text-align: center;
+}
 
 </style>
 
