@@ -1,21 +1,57 @@
 <template>
   <div class="participations-show">
 
+    <div class="spacer"></div>
+    <div class="row mt-5">
+      <div class="col-lg-4 offset-lg-2">
+        <div class="help-request-button">
+          <div class="text-center mb-4">
+            <h1>{{ participation.student.first_name }} {{ participation.student.last_name }}</h1>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button v-on:click="handRaised()" class="btn btn-secondary btn-lg btn-block ">Hand Raised</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-3 offset-lg-1 timestamps-scroll">
+        <ul>
+          <li class="text-center timestamp-item" v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.formatted.created_at }}</li>
+        </ul>
+      </div>
+    </div>
 
-
-    <button v-on:click="handRaised()" class="btn btn-secondary btn-lg btn-block mt-5">Hand Raised</button>
-    
-    <ul>
-      <li v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.created_at }}</li>
-    </ul>
+    <div class="row mt-4 mb-4">
+      
+    </div>
+      
 
   </div>
 </template>
 
 <style>
 
-.particiations-show {
-  text-align: center;
+.help-request-button {
+  margin-top: 80px;
+}
+
+.spacer {
+  height: 30px;
+  background-color: black;
+}
+
+.timestamps-scroll {
+  height: 400px;
+  overflow: scroll;
+  padding: 0px;
+  border: 2px solid black; 
+  border-radius: 10px;
+}
+
+.timestamp-item {
+  border: 1px solid black;
+  padding: 4px;
+  font-size: 22px;
 }
 
 .open-request {
@@ -27,11 +63,8 @@
 }
 
 .btn-block {
-
     padding: 20px 30px;
     font-size: 38px;
-    /*word-spacing: 10px;*/
-    /*text-shadow: 3px 2px teal;*/
     border-radius: 20px;
     width: 80%;
   }

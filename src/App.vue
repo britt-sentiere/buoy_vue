@@ -48,7 +48,7 @@
                     <nav class="classy-navbar justify-content-between" id="educampNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="public"><img src="buoy.png" alt="Logo"></a>
+                        <router-link class="nav-brand" to="/"><img src="/buoy.png" alt="Logo"></router-link>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -68,9 +68,11 @@
                             
                             <div class="classynav">
                                 <ul>
-                                    <li class="current_page_item">
+                                    <!-- <li class="current_page_item">
                                       <router-link to="/">Home</router-link>
-                                    </li>
+                                    </li> -->
+
+                                    <!-- v-if for type -->
                                   <!--   <li>
                                       <router-link to="/students">Student Show</router-link>
                                     </li>
@@ -232,6 +234,8 @@
 </template>
 
 <style>
+
+
 .download_app_area {
 
   padding-right: 1260px;
@@ -239,4 +243,24 @@
 
 
 
+
+
 </style>
+
+<script>
+export default {
+  data: function() {
+    return {
+      userType: ""
+    };
+  },
+  created: function() {
+    var typeOfUser = localStorage.getItem("userType");
+    if (typeOfUser) {
+      this.userType = typeOfUser;
+    }
+  }
+}
+
+  
+</script>
