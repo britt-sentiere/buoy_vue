@@ -12,7 +12,7 @@
                     <div class="col-md">
                         <!--  Top Quote Area Start -->
                         <div class="top_quote">
-                            <p>Buoy</p>
+                            <p>"An investment in knowledge pays the best interest" ~ Benjamin Franklin</p>
                         </div>
                     </div>
                     <div class="col-md">
@@ -234,6 +234,10 @@
 </template>
 
 <style>
+
+.nav-brand {
+  padding-left: 525px;
+}
 
 
 .download_app_area {
