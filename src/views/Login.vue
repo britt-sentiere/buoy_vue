@@ -24,7 +24,14 @@
 <style>
   .btn {
 
-    font-size: 18px;
+    background-color: #009688; /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
 
   }
 

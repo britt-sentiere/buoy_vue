@@ -9,6 +9,7 @@
         
           <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
 
+          <!-- <button type="button" class="btn btn-outline-primary">Primary</button> -->
 
           
            <br>
@@ -18,16 +19,6 @@
 </template>
 
 <style>
-.btn {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 </style>
 
 <script>
