@@ -1,5 +1,7 @@
 <template>
   <div class="signup">
+  <div class="spacer"></div>
+
 
     <!-- Login area start -->
     <div class="login_area section_padding_100">
@@ -7,18 +9,19 @@
             <div class="row">
                 <!-- Login thumb -->
                 <div class="col-12 col-lg-5 col-xl-6">
-                    <div class="login_thumb" style="background-image: url(img/bg-pattern/courses-bg.jpg);">
+                    <div class="login_thumb" style="background-image: url(img/gallery/signup.jpg);">
                         <!-- Login thumb caption -->
                         <div class="login_thumb_caption">
-                            <h3>Register is so Easy!</h3>
+                            <h3>Registering is Easy!</h3>
                             <p>Register &amp; start learning.</p>
                         </div>
                     </div>
                 </div>
+
                 <!-- Register form area start  -->
                 <div class="col-12 col-lg-7 col-xl-6">
                     <div class="register_form">
-                        <form action="#" method="post">
+                        <form v-on:submit.prevent="submit()">
                             <!-- Single Register input area start  -->
                             <div class="form-group">
                                 <i class="fa fa-user" aria-hidden="true"></i>
@@ -48,11 +51,12 @@
                             <button type="submit" class="btn btn-default" id="login_submit">Sign Up</button>
                         </form>
                         <div class="already_have_account">
-                            <a href="login.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Already have a account? Login</a>
+                            <a href="/login"><i class="fa fa-user-plus" aria-hidden="true"></i> Already have a account? Login</a>
                         </div>
                     </div>
                 </div>
                 <!-- Register form area end  -->
+
             </div>
         </div>
     </div>
