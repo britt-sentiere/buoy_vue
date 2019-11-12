@@ -3,7 +3,7 @@
 
 
 
-    <button v-on:click="handRaised()" class="btn btn-primary btn-lg btn-block mt">Hand Raised</button>
+    <button v-on:click="handRaised()" class="btn btn-secondary btn-lg btn-block mt-5">Hand Raised</button>
     
     <ul>
       <li v-for="help_request in participation.help_requests" v-bind:class="{'open-request': !help_request.completed_time, 'closed-request': help_request.completed_time }">{{ help_request.created_at }}</li>
@@ -14,12 +14,16 @@
 
 <style>
 
+.particiations-show {
+  text-align: center;
+}
+
 .open-request {
-  color: teal;
+  color: #009688;
 }
 
 .closed-request {
-  background-color: green;
+  background-color: #00BCD4;
 }
 
 .btn-block {
