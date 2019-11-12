@@ -14,11 +14,26 @@
           <label>Password:</label>
           <input type="password" class="form-control" v-model="password">
         </div>
-        <input type="submit" class="btn btn-primary" value="Submit">
+        <input type="submit" class="btn btn-primary m-5" value="Submit">
       </form>
     </div>
   </div>
 </template>
+
+
+<style>
+  .btn {
+
+    font-size: 18px;
+
+  }
+
+  .login {
+
+    text-align: center;
+    
+  }
+</style>
 
 <script>
 import axios from "axios";
