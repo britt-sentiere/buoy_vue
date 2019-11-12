@@ -14,7 +14,7 @@
           <label>Password:</label>
           <input type="password" class="form-control" v-model="password">
         </div>
-        <input type="submit" class="btn btn-primary m-5" value="Submit">
+        <input type="submit" class="btn btn-secondary m-5" value="Submit">
       </form>
     </div>
   </div>

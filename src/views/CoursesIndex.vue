@@ -7,7 +7,7 @@
        <div v-for="course in teacher.courses ">
 
         
-          <router-link class="btn btn-success" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
+          <router-link class="btn btn-secondary" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
 
           <!-- <button type="button" class="btn btn-outline-primary">Primary</button> -->
 
