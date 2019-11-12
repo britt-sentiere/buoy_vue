@@ -100,7 +100,7 @@
                             <!-- single latest news excerp -->
                             <div class="news_content">
                                 <p>We asked high school students how they prepare for tests and demanding assignments. Here are some of their recommendations, which we hope you’ll find useful and inspiring as you embark on your own SAT practice plan.</p>
-                                <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="https://www.khanacademy.org/test-prep/sat/new-sat-tips-planning/new-sat-how-to-prep/a/tips-for-effective-efficient-studying" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <div class="news_content">
                                 <p>Learning transcends walls. With thousands of teacher-crafted learning activities that sync up with the school year, we empower parents and teachers so each child's needs and potential can take center stage. </p>
                                
-                                <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="https://www.education.com/" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                             <!-- single latest news excerp -->
                             <div class="news_content">
                                 <p>We offer more than 3 million free and paid resources, created by educators who understand what works in the classroom. When educators get the resources and support they need, they're best equipped. </p>
-                                <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="https://www.teacherspayteachers.com/" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
