@@ -95,7 +95,7 @@
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="https://www.khanacademy.org/test-prep/sat/new-sat-tips-planning/new-sat-how-to-prep/a/tips-for-effective-efficient-studying">Tips For Effective & Efficient Studying</a>
+                                <a href="https://www.khanacademy.org/test-prep/sat/new-sat-tips-planning/new-sat-how-to-prep/a/tips-for-effective-efficient-studying">Tips For Effective And Efficient Studying</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
@@ -111,7 +111,7 @@
                     <div class="single_latest_news_area">
                         <!-- single latest news thumb -->
                         <div class="single_latest_news_img_area">
-                            <img src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1545589245-a5ce759f413f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                             <!-- single latest news published date -->
                             <!-- <div class="published_date">
                                 <p class="date">22</p>
@@ -121,12 +121,12 @@
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="https://www.education.com/">Boost Your Child's Learning</a>
+                                <a href="https://www.education.com/">How To Boost Your Child's Learning</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
-                                <p>With thousands of teacher-crafted learning activities that sync up with the school year, we empower parents and teachers so each child's needs and potential can take center stage. </p>
-                                <p>For Schools, Districts, and Organizations</p>
+                                <p>Learning transcends walls. With thousands of teacher-crafted learning activities that sync up with the school year, we empower parents and teachers so each child's needs and potential can take center stage. </p>
+                               
                                 <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                     <div class="single_latest_news_area">
                         <!-- single latest news thumb -->
                         <div class="single_latest_news_img_area">
-                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1909&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
                             <!-- single latest news published date -->
                            <!--  <div class="published_date">
                                 <p class="date">13</p>
@@ -148,11 +148,11 @@
                         <div class="single_latest_news_text_area">
                             <!-- single latest news title -->
                             <div class="news_title">
-                                <a href="https://www.teacherspayteachers.com/">Lesson Plan Resources For Educators</a>
+                                <a href="https://www.teacherspayteachers.com/">Educator Lesson Plan Resources</a>
                             </div>
                             <!-- single latest news excerp -->
                             <div class="news_content">
-                                <p>We offer more than 3 million free and paid resources, created by educators who understand what works in the classroom. When educators get the resources and support they need, they're best equipped to inspire our next generation of learners. </p>
+                                <p>We offer more than 3 million free and paid resources, created by educators who understand what works in the classroom. When educators get the resources and support they need, they're best equipped. </p>
                                 <a href="#" class="btn blog-btn">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
