@@ -4,7 +4,7 @@
     <section class="welcome_area clearfix" id="home">
         <div class="welcome_slides">
             <!-- Single Slide -->
-            <div class="single_slide text-center" style="background-image: url(https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);">
+            <div class="single_slide text-center" style="background-image: url('/img/gallery/emptylecturehall.jpg');">
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
@@ -167,12 +167,6 @@
 
 
 
-
-
-    
-    <!-- <h1>{{ message }}</h1> -->
-
-
   </div>
 </template>
 
@@ -187,13 +181,9 @@
 export default {
   data: function() {
     return {
-      // message: "Welcome to Buoy!"
     };
   },
   created: function() {
-    // axios.get("/api/help_requests").then(response => {
-    //    this.help_requests = response.data;
-    //  });
      
   },
   methods: {}

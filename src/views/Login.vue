@@ -1,5 +1,6 @@
 <template>
   <div class="login">
+    <div class="spacer"></div>
 
     <!-- ===================== login area start ===================== -->
     <section class="login_area section_padding_100">
@@ -57,28 +58,15 @@
         </div>
     </section>
     <!-- ===================== login area end ===================== -->
- <!--    <div class="container">
-      <form v-on:submit.prevent="submit()">
-        <h1>Login</h1>
-        <ul>
-          <li class="text-danger" v-for="error in errors">{{ error }}</li>
-        </ul>
-        <div class="form-group">
-          <label>Email:</label>
-          <input type="text" class="form-control" v-model="email">
-        </div>
-        <div class="form-group">
-          <label>Password:</label>
-          <input type="password" class="form-control" v-model="password">
-        </div>
-        <input type="submit" class="btn btn-secondary m-5" value="Submit">
-      </form>
-    </div> -->
+
   </div>
 </template>
 
 
 <style>
+
+
+
   .btn {
 
     background-color: #009688; /* Green */

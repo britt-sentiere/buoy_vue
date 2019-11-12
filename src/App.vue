@@ -102,7 +102,7 @@
 
 
     <!-- ===================== Download App Area Start ===================== -->
-    <div class="download_app_area section_padding_100" style="background-image: url(https://images.unsplash.com/photo-1473367961721-680e99e8e882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80);">
+    <div class="download_app_area section_padding_100" style="background-image: url('/img/gallery/yellowbuoy.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7 ml-md-auto">

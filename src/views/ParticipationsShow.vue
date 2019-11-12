@@ -36,8 +36,8 @@
 }
 
 .spacer {
-  height: 30px;
-  background-color: black;
+  height: 2px;
+  background-color: #009688;
 }
 
 .timestamps-scroll {
