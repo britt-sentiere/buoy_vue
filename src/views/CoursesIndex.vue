@@ -7,7 +7,7 @@
        <div v-for="course in teacher.courses ">
 
         
-          <router-link class="btn btn-secondary" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
+          <router-link class="btn btn-secondary" style="text-align:center;display:block;" v-bind:to="'/courses/' + course.id">{{ course.course_name }}</router-link>
 
           <!-- <button type="button" class="btn btn-outline-primary">Primary</button> -->
 
@@ -19,6 +19,16 @@
 </template>
 
 <style>
+
+.teacher-show {
+  
+  text-align: center;
+}
+.btn {
+
+  font-size: 25px;
+}
+
 </style>
 
 <script>

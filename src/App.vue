@@ -12,7 +12,7 @@
                     <div class="col-md">
                         <!--  Top Quote Area Start -->
                         <div class="top_quote">
-                            <p>Welcome to Buoy</p>
+                            <p>Buoy</p>
                         </div>
                     </div>
                     <div class="col-md">
@@ -232,7 +232,10 @@
 </template>
 
 <style>
+.download_app_area {
 
+  padding-right: 1260px;
+}
 
 
 

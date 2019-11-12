@@ -2,7 +2,7 @@
   <div class="courses-show">
     <h1>Help Requests: </h1>
 
-    <button v-for="participation in course.participations" v-on:click="completeRequest(participation.student.open_help_request.id)" class="btn btn-primary btn-lg block m-2" >{{ participation.student.first_name }} {{ participation.student.last_name}} - {{ participation.student.open_help_request.formatted.created_at }}</button>
+    <button v-for="participation in course.participations" v-on:click="completeRequest(participation.student.open_help_request.id)" class="btn btn-secondary btn-lg block m-2" >{{ participation.student.first_name }} {{ participation.student.last_name}} - {{ participation.student.open_help_request.formatted.created_at }}</button>
 
     <!-- {{ course.participations }} -->
   </div>

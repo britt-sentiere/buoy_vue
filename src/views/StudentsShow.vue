@@ -7,7 +7,7 @@
        <div v-for="participation in student.participations ">
         
 
-          <router-link class="btn btn-success" v-bind:to="'/participations/' + participation.id">{{ participation.course.course_name}} / {{ participation.course.teacher.last_name}}</router-link><br>
+          <router-link class="btn btn-secondary" style="text-align:center;display:block;" v-bind:to="'/participations/' + participation.id">{{ participation.course.course_name}} / {{ participation.course.teacher.last_name}}</router-link><br>
 
           
            <br>
@@ -17,6 +17,15 @@
 </template>
 
 <style>
+
+.students-show {
+  text-align: center;
+}
+
+.btn {
+  
+  font-size: 25px;
+}
 </style>
 
 <script>
