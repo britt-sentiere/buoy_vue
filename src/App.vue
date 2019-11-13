@@ -221,7 +221,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="footer_bottom">
-                            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Designing World</a></p>
+                            <!-- <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Designing World</a></p> -->
                         </div>
                     </div>
                 </div>
@@ -244,9 +244,6 @@
 
   padding-right: 1260px;
 }
-
-
-
 
 
 </style>

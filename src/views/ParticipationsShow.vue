@@ -1,27 +1,6 @@
 <template>
   <div class="participations-show">
     <div class="spacer"></div>
-
-    <!-- ===================== Breadcumb area start ===================== -->
-    <section class="breadcumb_area" style="background-image: url(/img/gallery/openbooks.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="breadcumb_section">
-                        <!-- Breadcumb page title start -->
-                        
-                        <!-- Breadcumb page pagination start -->
-                        <div class="page_pagination">
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ===================== Breadcumb area end ===================== -->
-
-    <div class="spacer"></div>
     <div class="row mt-5">
       <div class="col-lg-4 offset-lg-2">
         <div class="help-request-button">

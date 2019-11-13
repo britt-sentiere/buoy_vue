@@ -1,6 +1,8 @@
 <template>
   <div class="teacher-show">
+    <br>
     <h1>Welcome back, {{ teacher.first_name }} !</h1>
+    <br>
 
      <div class="container">
 
