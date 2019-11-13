@@ -1,8 +1,13 @@
 <template>
   <div class="courses-show">
-    <br>
-    <h1>Help Requests: </h1>
-    <br>
+    
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Help Requests: </h1>
+        <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+      </div>
+    </div>
 
     <button v-for="participation in course.participations" v-on:click="completeRequest(participation.student.open_help_request.id)" class="btn btn-secondary btn-lg block m-2" >{{ participation.student.first_name }} {{ participation.student.last_name}} - {{ participation.student.open_help_request.formatted.created_at }}</button>
 

@@ -1,11 +1,21 @@
 <template>
   <div class="participations-show">
     <div class="spacer"></div>
-    <div class="row mt-5">
+    <div class="row mt-2">
       <div class="col-lg-4 offset-lg-2">
         <div class="help-request-button">
           <div class="text-center mb-4">
-            <h1>{{ participation.student.first_name }} {{ participation.student.last_name }}</h1>
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">{{ participation.student.first_name }} {{ participation.student.last_name }}</h1>
+                <br>
+                <br>
+                <p class="lead">Course: {{ participation.course.course_name}}</p>
+                <br>
+                <p>Instructor: {{ participation.course.teacher.last_name}}, {{ participation.course.teacher.first_name}}</p>
+              </div>
+            </div>
+            <!-- <h1>{{ participation.student.first_name }} {{ participation.student.last_name }}</h1> -->
           </div>
           <div class="d-flex justify-content-center">
             <button v-on:click="handRaised()" class="btn btn-secondary btn-lg btn-block ">Hand Raised</button>
@@ -19,6 +29,7 @@
         </ul>
       </div>
     </div>
+
 
     <div class="row mt-4 mb-4">
       
@@ -43,6 +54,7 @@
   height: 400px;
   overflow: scroll;
   padding: 0px;
+  margin-top: 80px;
   border: 2px solid black; 
   border-radius: 10px;
 }
@@ -67,6 +79,11 @@
     border-radius: 20px;
     width: 80%;
   }
+
+.col-lg-3 {
+
+}
+
 
 </style>
 
