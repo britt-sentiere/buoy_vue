@@ -1,8 +1,5 @@
 <template>
   <div class="signup">
-  <div class="spacer"></div>
-
-
     <!-- Login area start -->
     <div class="login_area section_padding_100">
         <div class="container">

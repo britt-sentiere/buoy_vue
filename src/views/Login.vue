@@ -1,6 +1,5 @@
 <template>
   <div class="login">
-    <div class="spacer"></div>
 
     <!-- ===================== login area start ===================== -->
     <section class="login_area section_padding_100">

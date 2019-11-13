@@ -1,5 +1,5 @@
 <template>
-  <div class="courses-show">
+  <div class="courses-show pb-5">
     
 
     <div class="jumbotron jumbotron-fluid">

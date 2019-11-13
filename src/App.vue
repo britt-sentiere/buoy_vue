@@ -96,10 +96,9 @@
     </header>
     <!--  ===================== Header Area End ===================== -->
 
+    <div class="spacer"></div>
 
     <router-view/>
-
-
 
     <!-- ===================== Download App Area Start ===================== -->
     <div class="download_app_area section_padding_100" style="background-image: url('/img/gallery/yellowbuoy.jpg');">

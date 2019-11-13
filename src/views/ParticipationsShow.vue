@@ -1,6 +1,5 @@
 <template>
   <div class="participations-show">
-    <div class="spacer"></div>
     <div class="row mt-2">
       <div class="col-lg-4 offset-lg-2">
         <div class="help-request-button">
@@ -138,7 +137,7 @@ export default {
         .post("/api/help_requests", studentParams)
         .then(response => {
           console.log("success", response.data);
-          this.participation.help_requests.push(response.data);
+          this.participation.help_requests.unshift(response.data);
         });
 
     }
